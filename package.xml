@@ -1,0 +1,39 @@
+<?xml version="1.0"?>
+<package>
+	<name>string_relay</name>
+	<version>1.0.0</version>
+	<description>ROS package that republishes strings from a ZMQ TCP/IP socket connection</description>
+	<maintainer email="carloscosta.cmcc@gmail.com">Carlos Miguel Correia da Costa</maintainer>
+	<license>BSD</license>
+	<author email="carloscosta.cmcc@gmail.com">Carlos Miguel Correia da Costa</author>
+
+
+	<buildtool_depend>catkin</buildtool_depend>
+
+
+	<!-- ################################################################## -->
+	<!-- Build dependencies -->
+	<!-- ################################################################## -->
+
+	<build_depend>std_msgs</build_depend>
+	<build_depend>roscpp</build_depend>
+	<build_depend>rosconsole</build_depend>
+	<build_depend>rostime</build_depend>
+
+	<!-- system dependencies -->
+	<build_depend>Boost</build_depend>
+
+
+	<!-- ################################################################## -->
+	<!-- Run dependencies -->
+	<!-- ################################################################## -->
+
+	<run_depend>dynamic_reconfigure</run_depend>
+	<run_depend>std_msgs</run_depend>
+	<run_depend>roscpp</run_depend>
+	<run_depend>rosconsole</run_depend>
+	<run_depend>rostime</run_depend>
+
+	<!-- system dependencies -->
+	<run_depend>Boost</run_depend>
+</package>
